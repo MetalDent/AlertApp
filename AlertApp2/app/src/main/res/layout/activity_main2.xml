@@ -4,18 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/roadmap"
     tools:context=".MainActivity2">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="641dp"
-        android:text="Dashboard"
-        android:textColor="#3F51B5"
-        android:textSize="35dp"
-        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -47,73 +37,140 @@
         android:layout_marginLeft="300dp"
         android:src="@drawable/profile"/>
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="314dp"
-        app:cardBackgroundColor="#800080"
-        app:cardCornerRadius="25dp"
-        app:cardElevation="10dp" >
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="401dp"
+        app:cardBackgroundColor="#CFF17E"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:src="@drawable/view" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Login"
-                android:textColor="#fff"
-                android:layout_centerInParent="true"/>
+                android:text="View Traffic Status"
+                android:textColor="#0C3517"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+                android:textSize="20dp"/>
+
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="334dp"
-        app:cardBackgroundColor="#800080"
-        app:cardCornerRadius="25dp"
-        app:cardElevation="10dp" >
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="321dp"
+        app:cardBackgroundColor="#CFF17E"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:src="@drawable/report" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Login"
-                android:textColor="#fff"
-                android:layout_centerInParent="true"/>
+                android:text="Report Traffic Status"
+                android:textColor="#0C3517"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+                android:textSize="20dp"/>
+
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="354dp"
-        app:cardBackgroundColor="#800080"
-        app:cardCornerRadius="25dp"
-        app:cardElevation="10dp" >
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="241dp"
+        app:cardBackgroundColor="#CFF17E"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:src="@drawable/directions" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Login"
-                android:textColor="#fff"
-                android:layout_centerInParent="true"/>
+                android:text="Get Directions"
+                android:textColor="#0C3517"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+                android:textSize="20dp"/>
+
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="161dp"
+        app:cardBackgroundColor="#CFF17E"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:src="@drawable/favorite" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Favourite Places"
+                android:textColor="#0C3517"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+                android:textSize="20dp"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>
